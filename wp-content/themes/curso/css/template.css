@@ -4,3 +4,12 @@
 
 /*Menu section */
 .main-menu ul li, .footer_menu ul li{ display: inline;}
+
+.wp-post-image{
+	float: left;
+	margin: 0 15px 10 0px;
+}
+
+.blog article{
+	display: inline-block;
+}
