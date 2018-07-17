@@ -1,0 +1,6 @@
+/* Top bar section */
+.social-media-icons{ background: green; height: 30px; }
+.search{ background: yellow; height: 30px; }
+
+/*Menu section */
+.main-menu ul li, .footer_menu ul li{ display: inline;}
