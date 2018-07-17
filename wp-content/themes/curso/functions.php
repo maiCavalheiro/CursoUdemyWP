@@ -20,7 +20,8 @@ register_nav_menus(
     'height' => 225,
     'width' => 1920
    );
-  add_theme_support('custom-header', $args);
+
+  add_theme_support('custom-header', $args); 
   add_theme_support('post-thumbnails');
   add_theme_support('post-formats', array('video', 'image'));
 
