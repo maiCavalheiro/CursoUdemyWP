@@ -11,28 +11,28 @@ h4{ font-size: 18px; margin-top: 0; }
 
 
 /* Top Bar Section */
-.top-bar{ background: #b9121b; color: #fff; padding: 15px 0; }
+.top-bar{ background: #4169E1; color: #fff; padding: 15px 0; }
 
 /* Header - Main Menu */
-.menu-area{ background: #f3f3f3; padding: 15px 0; }
+.menu-area{ background: #B0C4DE; padding: 15px 0; }
 .main-menu ul{ list-style: none; padding: 0; margin: 0; font-size: 28px; }
 .main-menu ul li{ display: inline;  margin: 0 30px 0 0;}
 .main-menu ul li:last-child{ margin: 0; }
-.main-menu ul li a{ text-transform: uppercase; color: #4c1b1b; text-decoration: none;}
+.main-menu ul li a{ text-transform: uppercase; color: #191970; text-decoration: none;}
 .main-menu ul  li.current-menu-item a{ color:#e58888; }
 
 /* Slider */
 .slide{ padding: 25px 0; }
 
 /* Services */
-.services{ background: #4c1b1b; padding: 25px 0; color: #fefefe; }
+.services{ background: #4B0082; padding: 25px 0; color: #fefefe; }
 
 /* Middle Area */
 .middle-area{ padding: 25px 0; }
-.middle-area h1{ color: #4c1b1b; text-transform: uppercase;  }
+.middle-area h1{ color: #191970; text-transform: uppercase;  }
 
 /* Middle Area - Sidebar */
-.sidebar{ background: #f6e497; padding: 20px; margin: 0 0 30px;  }
+.sidebar{ background: #D3D3D3; padding: 20px; margin: 0 0 30px;  }
 
 /* Footer */
 footer{ background: #000; padding: 15px 0; color: #fcfae1; }
