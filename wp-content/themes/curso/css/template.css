@@ -42,7 +42,7 @@ footer{ background: #000; padding: 15px 0; color: #fcfae1; }
 .footer-menu ul li{ display: inline;  margin: 0 15px 0 0;}
 .footer-menu ul li:last-child{ margin: 0; }
 .footer-menu ul li a{ color: #fcfae1;  text-decoration: none;}
-.footer-menu ul  li.current-menu-item a{ color:#e58888; }
+.footer-menu ul  li .current-menu-item a{ color:#e58888; }
 
 /* Blog */
 .wp-post-image{ float: left; margin: 0 15px 10px 0; }

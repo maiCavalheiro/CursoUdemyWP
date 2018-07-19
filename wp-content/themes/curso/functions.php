@@ -28,3 +28,67 @@ register_nav_menus(
 }
 
 add_action('after_setup_theme', 'wpcurso_config', 0);
+
+add_action('widgets_init', 'wpcurso_sidebars');
+
+function wpcurso_sidebars(){
+  register_sidebar(
+    array(
+        'name' => 'Home page sidebar',
+        'id' => 'sidebar-1',
+        'description' => 'Sidebar to be used on the homepage',
+        'before_widget' => '<div class ="widget-wrapper">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widget-title">',
+        'after_title' => "</h2>"
+    )
+  );
+
+  register_sidebar(
+    array(
+        'name' => 'Blog page sidebar',
+        'id' => 'sidebar-2',
+        'description' => 'Sidebar to be used on the blog page',
+        'before_widget' => '<div class ="widget-wrapper">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widget-blog">',
+        'after_title' => "</h2>"
+    )
+  );
+
+  register_sidebar(
+    array(
+        'name' => 'Service 1',
+        'id' => 'service-1',
+        'description' => 'First service area.',
+        'before_widget' => '<div class ="widget-wrapper">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widget-blog">',
+        'after_title' => "</h2>"
+    )
+  );
+
+  register_sidebar(
+    array(
+        'name' => 'Blog page sidebar',
+        'id' => 'sidebar-2',
+        'description' => 'Sidebar to be used on the blog page',
+        'before_widget' => '<div class ="widget-wrapper">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widget-blog">',
+        'after_title' => "</h2>"
+    )
+  );
+
+  register_sidebar(
+    array(
+        'name' => 'Blog page sidebar',
+        'id' => 'sidebar-2',
+        'description' => 'Sidebar to be used on the blog page',
+        'before_widget' => '<div class ="widget-wrapper">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widget-blog">',
+        'after_title' => "</h2>"
+    )
+  );
+}

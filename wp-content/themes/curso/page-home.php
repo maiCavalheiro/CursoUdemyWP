@@ -8,13 +8,30 @@
           </section>
             <section class="services">
               <div class="container">
-                <div class="row">Serviços</div>
+                <h1>Our Services</h1>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div clss="sevices-item">
+                      
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div clss="sevices-item">
+                      
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div clss="sevices-item">
+                      
+                    </div>
+                  </div>
+                </div>
               </div>
               </section>
               <section class="middle-area">
                 <div class="container">
                   <div class="row">
-                    <aside class="sidebar col-md-4">Barra Lateral</aside>
+                    <?php get_sidebar('home');?>
                     <div class="news col-md-8">
                       <?php // se ouver posts
                       if ( have_posts()):
