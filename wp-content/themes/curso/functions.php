@@ -21,7 +21,7 @@ register_nav_menus(
     'width' => 1920
    );
 
-  add_theme_support('custom-header', $args); 
+  add_theme_support('custom-header', $args);
   add_theme_support('post-thumbnails');
   add_theme_support('post-formats', array('video', 'image'));
 
@@ -70,8 +70,8 @@ function wpcurso_sidebars(){
 
   register_sidebar(
     array(
-        'name' => 'Blog page sidebar',
-        'id' => 'sidebar-2',
+        'name' => 'Service 2',
+        'id' => 'service-2',
         'description' => 'Sidebar to be used on the blog page',
         'before_widget' => '<div class ="widget-wrapper">',
         'after_widget' => '</div>',
@@ -82,8 +82,8 @@ function wpcurso_sidebars(){
 
   register_sidebar(
     array(
-        'name' => 'Blog page sidebar',
-        'id' => 'sidebar-2',
+        'name' => 'Service 3',
+        'id' => 'service-3',
         'description' => 'Sidebar to be used on the blog page',
         'before_widget' => '<div class ="widget-wrapper">',
         'after_widget' => '</div>',
