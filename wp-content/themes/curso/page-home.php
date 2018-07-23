@@ -41,7 +41,7 @@
                         <?php
                         /*busca no bd os posts que vao ser mostrados*/
                                                 /*tipo=(post ou page) - qtd de posts - categoria=id */
-                        $featured = new WP_Query('post_type=post&posts_per_page=1$cat3,9');
+                        $featured = new WP_Query('post_type=post&posts_per_page=1$cat8,2');
 
                         if($featured->have_posts()):
                           while ($featured->have_posts()): $featured->the_post(); ?>
@@ -60,8 +60,10 @@
                           $args = array(
                             'post_type' => 'post',
                             'posts_per_page' => 2,
-                            'category__not_in' => array(6),
-                            'category__in' => array(3, 9),
+                            'category__not_in' => array(5),
+                            'category__in' => array(8, 2),
+                            //'category__not_in' => array(6),
+                            //'category__in' => array(3, 9),
                             'offset' => 1
                            );
                           $secondary = new WP_Query( $args);
