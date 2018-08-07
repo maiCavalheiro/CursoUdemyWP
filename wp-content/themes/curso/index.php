@@ -5,7 +5,7 @@
             <section class="middle-area">
                 <div class="container">
                   <div class="row">
-                    
+
                     <div class="news col-md-8">
                       <?php // se ouver posts
                       if ( have_posts()):
@@ -17,6 +17,12 @@
                       <?php
                     endwhile;
                     //se não houver post
+                    ?>
+                    <div class="row">
+                      <div class="pages text-left col-6"><<?php previous_posts_link("Newer posts") ?></div>
+                      <div class="pages text-right col-6">link direito</div>
+                    </div>
+                    <?php
                   else:
                        ?>
                        <p>there's nothing yet...</p>
@@ -25,7 +31,7 @@
                       <?php get_sidebar('blog');?>
                   </div>
               </div>
-              </section>             
+              </section>
         </main>
       </div>
 <?php get_footer(); ?>

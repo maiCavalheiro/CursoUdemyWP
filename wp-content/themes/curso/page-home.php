@@ -60,10 +60,10 @@
                           $args = array(
                             'post_type' => 'post',
                             'posts_per_page' => 2,
-                            'category__not_in' => array(5),
-                            'category__in' => array(8, 2),
-                            //'category__not_in' => array(6),
-                            //'category__in' => array(3, 9),
+                          //  'category__not_in' => array(5),
+                          //  'category__in' => array(8, 2),
+                            'category__not_in' => array(6),
+                            'category__in' => array(3, 9),
                             'offset' => 1
                            );
                           $secondary = new WP_Query( $args);
