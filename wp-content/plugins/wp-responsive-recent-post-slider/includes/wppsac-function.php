@@ -121,8 +121,12 @@ function wppsac_category_columns($ouput, $column_name, $tax_id) {
 
 function wprps_limit_words($string, $word_limit)
 {
-  $words = explode(' ', $string, ($word_limit + 1));
-  if(count($words) > $word_limit)
-  array_pop($words);
-  return implode(' ', $words);
+  $word_limit  = !empty($word_limit) ? $word_limit : '40'; 
+
+    if( !empty($string) ) {
+        $content = strip_shortcodes( $string ); // Strip shortcodes
+        $content = wp_trim_words( $string, $word_limit, '...' );
+    }
+
+    return $content;
 }

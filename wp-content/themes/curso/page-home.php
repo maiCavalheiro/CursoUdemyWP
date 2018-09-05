@@ -83,11 +83,15 @@
                   </div>
               </div>
               </section>
-              <div class="container">
-                <div class="row">
-                  <section class="map">Mapa</section>
-                </div>
-              </div>
+                  <section class="map">
+                    <iframe
+                      width="100%"
+                      height="350"
+                      frameborder="0" style="border:0"
+                      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCaCh2G-1_bdkfejbfMPduiRLg475ikCjg
+                      &q=Space+Needle,Seattle+WA&zoom=15" allowfullscreen>
+                    </iframe>
+                  </section>
         </main>
       </div>
 <?php get_footer(); ?>

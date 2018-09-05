@@ -6,7 +6,7 @@
  * Domain Path: /languages/
  * Description: Easy to add and display Recent Post Slider  
  * Author: WP Online Support
- * Version: 1.4.4
+ * Version: 1.4.5
  * Author URI: http://www.wponlinesupport.com/
  *
  * @package WordPress
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @since 1.0.0
  */
 if( !defined( 'WPRPS_VERSION' ) ) {
-    define( 'WPRPS_VERSION', '1.4.4' ); // Version of plugin
+    define( 'WPRPS_VERSION', '1.4.5' ); // Version of plugin
 }
 if( !defined( 'WPRPS_DIR' ) ) {
     define( 'WPRPS_DIR', dirname( __FILE__ ) ); // Plugin dir

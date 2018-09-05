@@ -2,7 +2,7 @@
 Contributors: wponlinesupport, anoopranawat, pratik-jain
 Tags: wponlinesupport, post slider, posts slider, recent post slider, recent posts slider, slider, responsive post slider, responsive posts slider, responsive recent post slider, responsive recent posts slider, wordpress posts slider, post slideshow, posts slideshow, recent posts slideshow, shortcodes
 Requires at least: 3.5
-Tested up to: 4.9.6
+Tested up to: 4.9.8
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -117,6 +117,9 @@ You can see and select all the designs from Post -> Post Slider Designs. Here yo
 6. Category shortcode for post
 
 == Changelog ==
+
+= 1.4.5 (23-08-2018) =
+* [+] Added ... at the end of the content limit.
 
 = 1.4.4 (04-06-2018) =
 * [*] Fixed some minor issues.

@@ -8,7 +8,7 @@
          <main>
                <section class="middle-area">
                  <div class="container">
-                     <aside class="sidebar col-md-4">Barra Lateral</aside>
+                  
                      <div class="general-template">
                        <?php // se ouver posts
                        if ( have_posts()):
