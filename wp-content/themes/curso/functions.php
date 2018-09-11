@@ -1,4 +1,7 @@
 <?php
+//Chamando o arquivo customizer
+require get_template_directory() .'/inc/customizer.php';
+
 // carrega scripts e folhas de estilo
 function load_scripts(){
   wp_enqueue_script('bootstrap-js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js', array('jquery'), '4.1.1', true);
@@ -25,7 +28,7 @@ register_nav_menus(
   add_theme_support('post-thumbnails');
   add_theme_support('post-formats', array('video', 'image'));
   add_theme_support('title-tag');
-
+  add_theme_support('custom-logo', array('height'=>110, 'width'=>200));
 }
 
 add_action('after_setup_theme', 'wpcurso_config', 0);

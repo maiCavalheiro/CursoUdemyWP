@@ -13,6 +13,9 @@ h4{ font-size: 18px; margin-top: 0; }
 /* Top Bar Section */
 .top-bar{ background: #4169E1; color: #fff; padding: 15px 0; }
 
+/*align*/
+.align {display: flex; align-items: center; width: 100%;}
+
 /*Social icons*/
 .social-media-icons ul{padding: 0; margin: 0}
 .social-media-icons ul li{ list-style: none;display: inline;margin: 0 5px 0;}
